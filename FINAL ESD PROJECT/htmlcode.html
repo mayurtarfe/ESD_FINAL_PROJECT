@@ -4,92 +4,105 @@
   </title>
   <head>
       <link rel="stylesheet" href="stylesheet.css">
-      <h1>WELCOME TO CARDEKHO.COM</h1>
-      <h2>Please select the car models.....</h2>
+      <h1><marquee>!!---------WELCOME TO CARDEKHO.COM---------!!</marquee></h1>
   </head>
   <body>
-<form>
-    <table>
-        <tr>
+    <div class="navbar">
+        <a href="#home">HOME</a>
+        <a href="file:///C:/Users/Lenovo/Desktop/FINAL%20ESD%20PROJECT/about.html">ABOUT</a>
+        <a href="file:///C:/Users/Lenovo/Desktop/FINAL%20ESD%20PROJECT/contact.html">CONTACT</a>
+        <a href="#jobs">JOBS</a>
+        <a href="#sell">SELL CARS</a>
+        <a href="#news">NEWS</a>
+        <a href="https://mail.google.com/" style="float: right;">cardekho@gmail.com</a>
+      </div>
+      <div style="text-align: center;">
+        <h2>Please select the car models you wish to compare.....</h2>
+      </div>
+      <form>
+<table align="center" >
+
+    <tr style="float: left">
+        <td>
+            BRAND1:
+        </td>
+        <td>
+        <select>
+            <option value="-1">MARUTI SUZUKI</option>
+            <option value="1">HONDA</option>
+            <option value="2">TOYOTA</option>
+            <option value="3">TATA</option>
+        </select>
+        </td>
+    </tr>
+    <tr style="float: right;">
+        <td>
+            MODEL1:
+        </td>
+        <td>
+        <select>
+            <option value="-1">ALTO</option>
+            <option value="1">WAGONR</option>
+            <option value="2">SWIFT</option>
+            <option value="3">CITY ZX</option>
+            <option value="4">JAZZZ</option>
+            <option value="5">ACCORD</option>
+            <option value="6">ETIOS</option>
+            <option value="7">FORTUNER</option>
+            <option value="8">LAND CRUISER</option>
+            <option value="9">NEXON</option>
+            <option value="10">TIAGO</option>
+            <option value="11">HARRIER</option>
+            <option value="3">TIGOR</option>
+        </select>
+        </td>
+    </tr>
+</table>
+    <table align="center">
+        <tr style="float: left">
             <td>
-                BRAND:
+                BRAND2:
             </td>
             <td>
-                <select>
-                    <h2>CAR1</h2>
-                    <option value="-1">HYUNDAI</option>
-                    <option value="1">MARUTI SUZUKI</option>
-                    <option value="2">TATA</option>
-                    <option value="3">HONDA</option>
-                    <option value="4">BMW</option>
-                    <option value="4">VOLKSWAGEN</option>
-                    <option value="4">AUDI</option>
-                    <option value="4">MERCEDES</option>
-                    <option value="4">TOYOTA</option>
-                </select>
-                </td>
-            <td>
-                MODEL: 
+            <select>
+                <option value="-1">MARUTI SUZUKI</option>
+                <option value="1">HONDA</option>
+                <option value="2">TOYOTA</option>
+                <option value="3">TATA</option>
+            </select>
             </td>
-            <td>
-                <select>
-                    <option value="-1">ALTO</option>
-                    <option value="1">NANO</option>
-                    <option value="2">BMW 320d</option>
-                    <option value="3">CITY ZX</option>
-                    <option value="4">VERNA</option>
-                    <option value="4">GLANZA</option>
-                    <option value="4">SANTRO</option>
-                    <option value="4">BENZ C CLASS</option>
-                    <option value="4">AUDI A3</option>
-                    <option value="4">POLO</option>
-                    <option value="4">ACCORD</option>
-                </select>
-                </td>
         </tr>
-    </table>
-    <table class="the">
-        <tr>
+        <tr style="float: right;">
             <td>
-                BRAND:
+                MODEL2:
             </td>
             <td>
-                <select>
-                    <h2>CAR1</h2>
-                <option value="-1">HYUNDAI</option>
-                <option value="1">MARUTI SUZUKI</option>
-                <option value="2">TATA</option>
-                <option value="3">HONDA</option>
-                <option value="4">BMW</option>
-                <option value="4">VOLKSWAGEN</option>
-                <option value="4">AUDI</option>
-                <option value="4">MERCEDES</option>
-                <option value="4">TOYOTA</option>
-                </select>
-                </td>
-            <td>
-                MODEL:
-            </td>
-            <td>
-                <select>
+            <select>
                 <option value="-1">ALTO</option>
-                <option value="1">NANO</option>
-                <option value="2">BMW 320d</option>
+                <option value="1">WAGONR</option>
+                <option value="2">SWIFT</option>
                 <option value="3">CITY ZX</option>
-                <option value="4">VERNA</option>
-                <option value="4">GLANZA</option>
-                <option value="4">SANTRO</option>
-                <option value="4">BENZ C CLASS</option>
-                <option value="4">AUDI A3</option>
-                <option value="4">POLO</option>
-                <option value="4">ACCORD</option>
-                </select>
-                </td>
+                <option value="4">JAZZZ</option>
+                <option value="5">ACCORD</option>
+                <option value="6">ETIOS</option>
+                <option value="7">FORTUNER</option>
+                <option value="8">LAND CRUISER</option>
+                <option value="9">NEXON</option>
+                <option value="10">TIAGO</option>
+                <option value="11">HARRIER</option>
+                <option value="3">TIGOR</option>
+            </select>
+            </td>
         </tr>
-    </table>
-</form>
+</table>
 <div style="text-align:center">  
-    <input type="submit" onclick="alert('form submitted')">  
-</div>   
+    <input type="submit" onclick="alert('form submitted')" value="SUBMIT">  
+</div> 
+<div style="text-align:center">  
+    <input type="reset" onclick="alert('CLEARED')" value="CLEAR ALL">  
+</div>
+</form>
+</div>
+
   </body>
 </html>
